@@ -1,0 +1,10 @@
+h1{
+    color:blue;
+    font-size: 44px;
+    /*font-size tamaño de la letra*/
+    text-align: center; /*centrar texto*/
+}
+
+pre{
+    color:red;
+}

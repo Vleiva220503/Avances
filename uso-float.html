@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso de float</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .main{
+        background: greenyellow;
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        overflow: hidden;
+      }
+      .caja{
+        width: 500px;
+        height: 200px;
+        margin: 20px;
+        
+      }
+      .img{
+        float: left;
+        width: auto;
+      }
+      .text{
+        float: left;
+      }
+      /*Estilos de articulos*/
+      .articulo{
+        background: rgb(2, 247, 255);
+        width: 500px;
+        margin: auto;
+      }
+
+      .articulo h2{
+        padding: 10px;
+        text-align: center;
+      }
+
+      .articulo img{
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <div class="caja img">
+        <img
+          src="https://loremflickr.com/g/320/240/paris,girl/all"
+          height="200"
+        />
+      </div>
+      <div class="caja text">
+        <h2>Encabezado</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
+          distinctio debitis autem numquam. Neque, maxime labore. Odit, quod
+          temporibus. Modi blanditiis non quasi eaque omnis suscipit odit quam
+          nisi sed.
+        </p>
+      </div>
+    </main>
+
+    <article class="articulo">
+      <h2>Encabezado de articulo</h2>
+      <img src="https://loremflickr.com/g/320/240/paris,girl/all" width="200" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non
+        quo quis quam explicabo earum obcaecati est suscipit laudantium ut, aut
+        officia, autem et fugit in sequi nesciunt beatae maxime soluta quaerat
+        fugiat natus facere ipsum! Nihil nemo, eum, enim quae quas corporis<p>
+         reiciendis iste exercitationem dolor quasi eligendi quia, nesciunt atque
+         sequi fugit distinctio sapiente. Soluta illum, alias aut minima dolores
+         eius dolorum pariatur eveniet. Totam nemo voluptatibus cum. Id incidunt,
+         doloribus dolorem totam sunt quibusdam soluta unde est eos? Hic,
+         laboriosam facilis nisi possimus similique maxime? Molestiae maxime
+         repellat esse necessitatibus ipsum accusamus sint sapiente, id eveniet
+        </p>
+      </p>
+    </article>
+  </body>
+</html>

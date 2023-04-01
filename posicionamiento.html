@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posicionamiento</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .caja {
+        background: orange;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        /*float: left;*/
+      }
+      .position {
+        background: purple;
+        position: absolute; /*absolute*/
+        bottom: 0%;
+        position: absolute;
+        /*eft: 300px;
+            top: 100px;*/
+      }
+      .caja-padre{
+        margin:20px;
+        background: green;
+        width: 500px;
+        height: 500px;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caja"></div>
+    <div class="caja-padre">
+      <div class="caja position"></div>
+    </div>
+    <div class="caja"></div>
+    <div class="caja"></div>
+    <div class="caja"></div>
+    <div class="caja"></div>
+    <div class="caja"></div>
+    <div class="caja"></div>
+    <div class="caja"></div>
+  </body>
+</html>

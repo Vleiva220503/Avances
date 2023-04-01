@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seudo-clases</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+        padding: 0px;
+        margin: 0px;
+      }
+      .menu {
+        background-color: #13a4a4;
+        padding: 10px 0px;
+      }
+
+      .menu-nav {
+        list-style: none;
+        padding-left:10px;
+        margin: 0px;
+      }
+      .menu-nav-item {
+        display: inline-block;
+      }
+
+      .menu-nav-item a {
+        color: #fff;
+        text-decoration: none;
+      }
+      /*seudo clases */
+      .menu-nav-item a:hover {
+        color: red;
+      }
+
+      .menu-nav-item a:active {
+        color: blue;
+      }
+
+      /*seudo - elementos*/
+
+      .menu-nav-item a::after {
+        content: "--";
+      }
+      /*Modelo de caja*/
+
+      main{
+        width: 100%;
+        height: 300px;
+        border: 10px solid gray ;
+        padding: 20px 58px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="menu-nav">
+          <li class="menu-nav-item">
+            <a href="">Inicio</a>
+          </li>
+          <li class="menu-nav-item">
+            <a href="">Trabajos </a>
+          </li>
+          <li class="menu-nav-item">
+            <a href="">Bloqueo </a>
+          </li>
+          <li class="menu-nav-item">
+            <a href="">Contactos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Hola mundo</h1>
+        <div>
+          <pre>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Sunt, sapiente provident eius voluptates harum rem!
+          </pre>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
